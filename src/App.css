@@ -1,13 +1,16 @@
 .app-wrapper {
   display: grid;
   grid-template-rows: 60px 1fr;    /*колличество строк*/
-  grid-template-rows: 2fr 10fr; /*кол-во клонок*/
+  grid-template-columns: 2fr 10fr; /*кол-во клонок*/
   /* grid-gap: 10px; */
   width: 1200px;
   margin: 0 auto;
   grid-template-areas:
   "header header" /*сколько колонок займет header*/
-  "nav conten"
-
+  "nav content"
 }
 
+.app-wrapper-content {
+  grid-area: content;
+  background-color: rgba(0, 0, 255, 0.52);
+}
