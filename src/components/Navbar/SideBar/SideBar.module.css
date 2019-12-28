@@ -1,0 +1,19 @@
+.sidebar{
+    text-align: center;
+    margin-top: 400px;
+    margin-bottom: 34px;
+}
+
+.items {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+.friendItem img{
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+}
